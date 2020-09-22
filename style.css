@@ -1,0 +1,325 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height:150px;
+    background:url(images/stars.jpg)  ;
+}
+header img{
+
+    height: 150px;
+    width: 100%;
+}
+header h1{
+    text-shadow:2px 2px 5px blue;
+    text-align: center;
+    font-size: 40px;
+    color: crimson;
+    font-weight: bold;
+   padding-top: 4%;
+   
+}
+
+header h2{
+    text-shadow:2px 2px 5px blue;
+    text-align: center;
+    font-size: 30px;
+    color: crimson;
+    padding: 0%;
+    font-weight: bold;
+}
+#content{
+    min-height: 300px;
+}
+
+            /*HOME PAGE*/
+#content .col1,.col2,.col3{
+    width: 25%;
+    
+    overflow:scroll;
+    float: left;
+    margin-left: 5%; 
+    
+}
+.col1 h1,.col2 h1,.col3 h1{
+    text-align: center;
+    font-size:xx-large;
+}
+.col1 h2,.col2 h2,.col3 h2{
+    height: 0px;
+    margin: 0px;
+    padding: 0%;
+}
+.col1 h2{
+  
+    border:5px solid red;
+}
+
+.col2 h2{
+    border: 5px solid tomato;
+}
+.col3 h2{
+    border:5px solid crimson;
+}
+ #content .col1 p,.col2 p,.col3 p{
+ text-align: justify;
+ box-sizing: border-box;  
+ padding: 5%;
+}
+           /*Who We Are?*/
+ .about{
+      min-height: 200px;
+      margin-left: 5%;
+      width: 90%;
+      background-color: antiquewhite;
+}
+ .about h1{
+      text-align: left;
+      font-size: xx-large;
+      color: grey;
+      padding-left: 4%;
+
+}
+.about p{
+    box-sizing: border-box;
+    padding: 4%;
+    text-align: justify;
+    font-size: large;
+}
+.about p font{
+    font-weight: bold;
+    color:red;;
+}
+.mission {
+    min-height: 200px;
+    margin-left: 5%;
+    width: 90%;
+    background-color: antiquewhite;
+}
+.mission h1{
+    text-align: left;
+      font-size: xx-large;
+      color: grey;
+      padding-left: 4%;
+}
+.mission ul{
+    list-style-position: inside;
+    padding: 4%;
+    font-size:large;
+}
+.mission ul li{
+    padding: 10px;
+}
+                       /*Mission Statement*/
+
+.plan{
+    min-height: 200px;
+    margin-left: 5%;
+    width: 90%;
+    background-color: antiquewhite;
+} 
+
+.plan p{
+    box-sizing: border-box;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+    text-align: justify;
+    font-size: large;
+}
+.plan h1{
+    text-align: left;
+    font-size: xx-large;
+    color: grey;
+    padding-left: 4%;
+}
+
+
+                /*Terms And Conditions*/
+.conditions{
+    min-height: 200px;
+    margin-left: 5%;
+    width: 90%;
+    background-color: antiquewhite;
+}
+
+.conditions h1{
+    text-align: left;
+    font-size: 40px;
+    color: grey;
+    padding: 4%;
+}
+
+.conditions ul{
+    list-style-position: inside;
+    padding: 4%;
+    font-size:large;
+}
+.conditions ul li{
+    padding: 10px;
+}
+                  /*Contact Us*/
+.contact{
+    min-height: 400px;
+    margin-left: 5%;
+    width: 90%;
+    background-color: antiquewhite;
+} 
+.contact h1,h2{
+    text-align: left;
+    font-size: 40px;
+    color: grey;
+    padding-top: 2%;
+    padding-left: 4%;
+}
+.contact h2{
+    color: black;
+    font-size: xx-large;
+}
+
+.contact p{
+    box-sizing: border-box;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+    text-align: justify;
+    font-size: large;
+}
+
+label,input,textarea{
+    margin-left: 4%;
+}
+input,textarea{
+    height: 30px;
+    width: 30%;
+    border-radius: 10px;
+}
+textarea{
+    
+    height: 100px;
+}
+input:focus{
+    background-color: #faf0e1;
+   
+}
+textarea:focus{
+    background-color: #faf0e1;
+}
+button{
+    height: 30px;
+    
+    color: grey;
+    line-height: 30px;
+   
+    font-weight: bold;
+    margin-left: 4%;
+    border-radius: 10px;
+}
+button:hover{
+    color: red;
+}
+                /*Birthday Parties*/
+                /*wedding events*/
+                /*scool events*/
+                /*Stage Decoration*/
+.wedding{
+       min-height: 200px;
+       margin-left: 5%;
+       width: 90%;
+       background-color: antiquewhite;
+}
+.wedding h1{
+      text-align: left;
+      font-size: xx-large;
+      color: grey;
+      padding-left: 4%;
+      padding-top: 2%;
+          
+}
+.wedding h2{
+    text-align: left;
+    font-size: xx-large;
+    color:black;
+    padding-left: 4%;
+        
+}
+.wedding img{
+    width: 92%; 
+    padding-left: 4%;
+    padding-right: 4%;  
+}
+.wedding p{
+  text-align: justify;
+  font-size: x-large;
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-bottom: 2%;
+  padding-right: 4%;
+  box-sizing: border-box;
+}
+span{
+    font-size: xx-large;
+    padding: 4%;
+    font-weight: bold;
+    text-align: left;
+    
+}
+
+.wedding ul{
+    list-style-position: inside;
+    padding-left: 4%;
+    padding-top: 0%;
+    font-size:large;
+}
+.wedding ul li{
+    padding: 10px;
+}          
+                /*Gallery*/
+                .wedding1{
+                    min-height: 200px;
+                    margin-left: 5%;
+                    width: 90%;
+                    background-color: antiquewhite;
+             }
+             .wedding1 h1{
+                   text-align: left;
+                   font-size: xx-large;
+                   color: grey;
+                   padding-left: 4%;
+                   padding-top: 2%;
+                       
+             }
+             .wedding1 h2{
+                 text-align: left;
+                 font-size: xx-large;
+                 color:black;
+                 padding-left: 4%;
+                     
+             }
+             section article img{
+                 height: 25%;
+                 width: 25%; 
+                 padding:4%;
+                 float: left; 
+                 background-color: antiquewhite;
+             }
+
+
+              /*Footer area for all*/
+footer{
+    clear: both;
+    height:50px;
+    background-color: black;
+}
+footer h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+   
+   
